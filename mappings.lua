@@ -6,6 +6,10 @@
 return {
   -- first key is the mode
   n = {
+   
+    ["<C-j>"] = {":bprevious<cr>", desc="Move to previous buffer"},
+    ["<C-k>"]={":bnext<cr>", desc="Move to next buffer"},
+
     -- second key is the lefthand side of the map
     -- mappings seen under group name "Buffer"
     ["<leader>bn"] = { "<cmd>tabnew<cr>", desc = "New tab" },
