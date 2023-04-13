@@ -9,4 +9,12 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+
+  "simrat39/rust-tools.nvim", -- add lsp plugin
+  {
+    "williamboman/mason-lspconfig.nvim",
+    opts = {
+      ensure_installed = { "rust_analyzer" },
+    },
+  },
 }
