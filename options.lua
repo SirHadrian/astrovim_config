@@ -8,6 +8,7 @@ return {
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
     mouse = "", -- Disable mouse
+    shell = "/usr/bin/fish", -- Change default shell
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
