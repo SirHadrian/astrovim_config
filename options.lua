@@ -1,6 +1,7 @@
 -- set vim options here (vim.<first_key>.<second_key> = value)
 return {
   opt = {
+    
     -- set to true or false etc.
     relativenumber = true, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
@@ -9,6 +10,7 @@ return {
     wrap = false, -- sets vim.opt.wrap
     mouse = "", -- Disable mouse
     shell = "/usr/bin/fish", -- Change default shell
+    
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
