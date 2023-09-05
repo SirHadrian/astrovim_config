@@ -11,6 +11,7 @@ return {
     shell = "/usr/bin/fish", -- Change default shell
     -- Neovide
     guifont = "JetBrainsMono Nerd Font:h8",
+    guifont = "CaskaydiaCove Nerd Font Mono:h8",
 
   },
   g = {
